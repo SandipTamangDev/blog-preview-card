@@ -11,6 +11,7 @@
     --gray-950: #111111;
     --gray-500: #6b6b6b;
     --white: #ffffff;
+    --footer-color: hsl(228, 45%, 44%);
 }
 
 .container {
@@ -126,4 +127,4 @@ h1:hover {
 
 
 .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: var(--footer-color) }
